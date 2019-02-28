@@ -1,12 +1,17 @@
 # lee-sails
 
-这是一个帮助前端开发人员，使用sails.js快速开发后台模块的库
+1、这是一个帮助前端开发人员，使用sails.js快速开发后台模块的库
+
+2、使用后台主流的mvc的开发方式，有后台开发工作经验的童鞋可快速上手
+
+3、采用waterline方式可随时替换其他数据库而无需更改大量代码
+
 
 ### Quick start
 
 project depends on node.js,mongodb and git , make sure the computer is installed
 
-Trans：依赖于node.js,mongodb,git等环境，请确保已经安装在开发机器上
+Trans：依赖于node.js,mongodb,git等环境，请确保已经安装在开发机器上。
 
 
 
