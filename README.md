@@ -19,11 +19,11 @@ git clone git@github.com:licynumber1/quick-dev-and-test-sails-mongo.git
 
 cd quick-dev-and-test-sails-mongo
 
-npm install
+npm install --registry=https://registry.npm.taobao.org
 
 cd view/my-app
 
-npm install
+npm install --registry=https://registry.npm.taobao.org
 
 
 
@@ -37,6 +37,7 @@ npm run start-node
 
 npm run start-web
 
+再输入任意键，当在命令行中出现一艘帆船，并将后台端口显示出来的时候就说明后台启动成功了。
 
 
 tips：由于前端界面作为后台开发的辅助类工具，因而放在一个项目中
