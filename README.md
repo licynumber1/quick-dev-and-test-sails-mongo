@@ -47,7 +47,6 @@ tips：由于前端界面作为后台开发的辅助类工具，因而放在一�
 
 ### Links
 
-+ 以下是关于sails.js的库的链接
 + [Sails framework documentation](https://sailsjs.com/get-started)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
