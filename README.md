@@ -8,6 +8,8 @@ project depends on node.js,mongodb and git , make sure the computer is installed
 
 Trans：依赖于node.js,mongodb,git等环境，请确保已经安装在开发机器上
 
+
+
 git clone git@github.com:licynumber1/quick-dev-and-test-sails-mongo.git
 
 cd quick-dev-and-test-sails-mongo
@@ -18,13 +20,19 @@ cd view/my-app
 
 npm install
 
+
+
 open mongod.exe and mongo.exe from the root directory of mongodb
 
 Trans：打开位于根目录的mongodb的应用文件mongod.exe、mongo.exe
 
+
+
 npm run start-node
 
 npm run start-web
+
+
 
 tips：由于前端界面作为后台开发的辅助类工具，因而放在一个项目中
 
