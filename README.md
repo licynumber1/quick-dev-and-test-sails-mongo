@@ -1,10 +1,11 @@
 # lee-sails
 
-a [Sails v1](https://sailsjs.com) application
+这是一个帮助前端开发人员，使用sails.js快速开发后台模块的库
 
 
 ### Links
 
++ 以下是关于sails.js的库的链接
 + [Sails framework documentation](https://sailsjs.com/get-started)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
