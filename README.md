@@ -1,10 +1,53 @@
 # lee-sails
 
-a [Sails v1](https://sailsjs.com) application
+1、这是一个帮助前端开发人员，使用sails.js快速开发后台模块的库
+
+2、使用后台主流的mvc的开发方式，有后台开发工作经验的童鞋可快速上手
+
+3、采用waterline方式可随时替换其他数据库而无需更改大量代码，自动返回restful接口
+
+4、支持传参进行链表查询，采用前后端约定式开发，通过数据渲染页面或逻辑。
+
+
+### Quick start
+
+project depends on node.js,mongodb and git , make sure the computer is installed
+
+Trans：依赖于node.js,mongodb,git等环境，请确保已经安装在开发机器上。
+
+
+
+git clone git@github.com:licynumber1/quick-dev-and-test-sails-mongo.git
+
+cd quick-dev-and-test-sails-mongo
+
+npm install --registry=https://registry.npm.taobao.org
+
+cd view/my-app
+
+npm install --registry=https://registry.npm.taobao.org
+
+
+
+open mongod.exe and mongo.exe from the root directory of mongodb
+
+Trans：打开位于根目录的mongodb的应用文件mongod.exe、mongo.exe
+
+
+
+npm run start-node
+
+npm run start-web
+
+再输入任意键，当在命令行中出现一艘帆船，并将后台端口显示出来的时候就说明后台启动成功了。
+
+
+tips：由于前端界面作为后台开发的辅助类工具，因而放在一个项目中
 
 
 ### Links
 
++ 以下是关于sails.js的库的链接
 + [Sails framework documentation](https://sailsjs.com/get-started)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
