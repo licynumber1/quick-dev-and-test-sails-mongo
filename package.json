@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run start-web\" \"npm run start-node\"",
-    "start-web":"cd views/my-app & npm start",
+    "start-web": "cd views/my-app & npm start",
     "start-node": "node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
