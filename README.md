@@ -44,10 +44,17 @@ npm run start-web
 
 tips：由于前端界面作为后台开发的辅助类工具，因而放在一个项目中
 
+### Plan or fix
+
+暂时只支持简单的增删改查，有待增加模糊匹配、翻页和排序方式
+
+框架目前没有对事务进行统一处理，mysql可以添加代码采用自身所带的回滚机制，其他数据库需要开发者自己实现。
+
+......
+
 
 ### Links
 
-+ 以下是关于sails.js的库的链接
 + [Sails framework documentation](https://sailsjs.com/get-started)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
