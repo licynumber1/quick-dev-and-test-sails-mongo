@@ -31,6 +31,12 @@ module.exports.routes = {
   'delete /api/goodsType': 'GoodsTypeController.del',
   'post /api/goodsType': 'GoodsTypeController.edit',
 
+  'get /api/lagou': 'LagouController.search',
+  'put /api/lagou': 'LagouController.create',
+  'delete /api/lagou': 'LagouController.del',
+  'post /api/lagou': 'LagouController.edit',
+  'get /api/lagou/getExternalData': 'LagouController.getExternalData',
+
 
   /***************************************************************************
   *                                                                          *

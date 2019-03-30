@@ -28,6 +28,7 @@ class App extends Component {
       title: i.dis || i.parse,
       dataIndex: i.parse,
       key: i.parse,
+      render:i.render,
     }))
   }
 
@@ -138,6 +139,11 @@ class App extends Component {
           <span>{ "-----"}<span style={{color:"red"}}>{this.props.data.name}</span>{"-----" }</span>
           <br/>
           <Button onClick={this.addCommodityModal}>新增</Button>
+          {
+            (this.props.data["addButton"] || []).map(i=>{
+              return  <Button onClick={()=>this.getMethodAdd(i)}>{i.label}</Button>
+            })
+          }
           {
             this.searchForm.map((i,index)=>{
               return (
@@ -263,6 +269,17 @@ class App extends Component {
         message.success("获取数据成功");
       }else{
         message.error( (res && res.data && res.data.msg) || '获取菜单栏失败');
+      }
+    })
+  }
+
+  getMethodAdd = ({api,parse={},successLabel,errorLabel}) => {
+    console.log(api,parse)
+    axios.getWithoutCancel(api,parse).then(res=>{
+      if(res && res.data && res.data.code === 200 && res.data.result){
+        message.success(successLabel || "操作成功");
+      }else{
+        message.error( (res && res.data && res.data.msg) || errorLabel || '获取菜单栏失败');
       }
     })
   }
