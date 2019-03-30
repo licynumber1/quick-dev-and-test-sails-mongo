@@ -58,6 +58,12 @@ tips：由于前端界面作为后台开发的辅助类工具，因而放在一�
 
 关于部署，现已将项目部署到http://149.129.111.193/上，根据需要对项目进行修改
 
+避坑指南：
+  0、配置ssh key：https://www.cnblogs.com/superGG1990/p/6844952.html
+  1、阿里云网页远程桌面关闭后，立刻中断服务。 解决方法：命令前加screen
+  2、mongodb需在usr/local/mongodb下创建 mongodserver/data/db文件夹
+  3、后台所有命令都需要root权限
+
 
 ### Links
 
