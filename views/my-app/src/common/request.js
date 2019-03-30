@@ -32,7 +32,7 @@ const codeMessage = {
 
 const type = 'test'
 const isTest = type === 'test'
-const testUrl = ('http://localhost:1337')//记得改回来
+const testUrl = ('149.129.111.193:1337')//记得改回来
 const baseUrl = isTest ? testUrl : 'http://api-dmp.fishsaying.com'
 export const websocketUrl = isTest ? "ws://test1-api-dmp.fishsaying.com/websocket" : "ws://api-dmp.fishsaying.com/websocket"
 // const baseUrl = process.env.NODE_ENV === 'development' ? 'http://test1-api-dmp.fishsaying.com' : 'http://api-dmp.fishsaying.com';
