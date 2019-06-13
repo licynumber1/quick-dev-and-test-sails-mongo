@@ -33,9 +33,16 @@ npm install --registry=https://registry.npm.taobao.org
 
 open mongod.exe and mongo.exe from the root directory of mongodb
 
+位于 : /usr/local/mongodb/bin
+
 Trans：打开位于根目录的mongodb的应用文件mongod.exe、mongo.exe
 
+推荐使用screen来管理多个命令环境：
 
+可能用到的命令：
+  screen -ls 查看screen
+  screen -S web/node 添加一个screen 并前往
+  ./mongo 运行mongo
 
 npm run start-node
 
