@@ -29,7 +29,26 @@ cd view/my-app
 
 npm install --registry=https://registry.npm.taobao.org
 
+==============================================mongodb环境========================================================
 
+对于window环境，可以通过某度安装
+对于mac环境，可以通过
+# 进入 /usr/local
+cd /usr/local
+
+# 下载
+sudo curl -O https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-4.0.9.tgz
+
+# 解压
+sudo tar -zxvf mongodb-osx-ssl-x86_64-4.0.9.tgz
+
+# 重命名为 mongodb 目录
+
+sudo mv mongodb-osx-x86_64-4.0.9/ mongodb
+方式来下载
+对于linux服务器，可以安装自带mongodb镜像或同mac方法来安装
+
+==============================================服务器部署========================================================
 
 open mongod.exe and mongo.exe from the root directory of mongodb
 
