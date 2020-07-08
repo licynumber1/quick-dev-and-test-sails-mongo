@@ -48,6 +48,8 @@ sudo mv mongodb-osx-x86_64-4.0.9/ mongodb
 方式来下载
 对于linux服务器，可以安装自带mongodb镜像或同mac方法来安装
 
+node npm 通过   https://www.cnblogs.com/zouke1220/p/9723191.html   安装
+
 ==============================================服务器部署========================================================
 
 open mongod.exe and mongo.exe from the root directory of mongodb
